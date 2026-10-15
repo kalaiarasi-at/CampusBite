@@ -1,22 +1,37 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+###CampusBite – College Canteen Pre-Order App###
 
-# Run and deploy your AI Studio app
+###About the Project
 
-This contains everything you need to run your app locally.
+CampusBite is an Android application project designed to make college canteen food ordering more convenient for students.
 
-View your app in AI Studio: https://ai.studio/apps/38293284-a470-4042-b8dc-01c85f6c0cdd
+###Objectives
 
-## Run Locally
+- Display canteen food items and prices.
+- Make food ordering easier for students.
+- Provide a user-friendly interface.
+- Help reduce waiting time at the canteen.
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+###Technologies Used
 
+- Android
+- Gradle
+- Java/Kotlin (based on the application source code)
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
-7. If you have already published your app in AI Studio, please [request upload key reset](https://support.google.com/googleplay/android-developer/answer/9842756#zippy=%2Crequest-an-upload-key-reset) in Google Play Console.
+###Project Structure
+
+- "app/" – Android application module
+- "gradle/" – Gradle configuration files
+- "build.gradle.kts" – Build configuration
+- "settings.gradle.kts" – Project settings
+
+###How to Run
+
+1. Download or clone this repository.
+2. Open the project in Android Studio.
+3. Allow Gradle Sync to complete.
+4. Select an Android emulator or connect an Android phone.
+5. Click Run to launch the application.
+
+Project Type
+
+College Academic Project
