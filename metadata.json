@@ -1,0 +1,6 @@
+{
+  "name": "CampusBite",
+  "description": "Smart College Canteen Pre-Order App - Skip the Queue, Grab Your Food. Features menu browsing, smart pickup slots, cart, order tracking, and admin canteen management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
